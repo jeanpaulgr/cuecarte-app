@@ -1,0 +1,154 @@
+.section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    background-color: white;
+  }
+   
+  .div-botones {
+    margin: 0.5rem;
+    /* padding: 2rem; */
+    font-size: 2rem;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .div {
+    margin: 0.5rem;
+    /* padding: 2rem; */
+    font-size: 2rem;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    width: auto;
+    height: 100%;
+    /* word-wrap: break-word; */
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .div-polera {
+    margin: 0.5rem;
+    /* padding: 2rem; */
+    font-size: 2rem;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+  }
+
+  .div-abajo {
+    margin-top: 15px;
+    /* padding: 2rem; */
+    border-top: solid white 15px;
+    font-size: 2rem;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .img-polera{
+    height: 70vmin;
+  }
+
+  .textarea{
+   width: 90%;
+   font-size: 50px;
+   text-align: center;
+  }
+
+  .textarea2{
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+   }
+
+  .contenedor-color{
+    font-size: 2rem;
+    background-color: white;
+    color: white;
+    width: 90%;
+    /* height: 70px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .color{
+    font-size: 2rem;
+    /* background-color: rgb(250, 7, 36); */
+    color: white;
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  h2{
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .compartir{
+    height: 100px;
+    width: 95%;
+    cursor: pointer;
+    margin: 30px;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+  }
+
+  .contenedor-polera {
+    position: relative;
+  }
+  .texto-adelante {
+    color: white;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    right: 25%;
+    font-family: borealis;
+    font-size: 40px;
+  }
+  .texto-atras {
+    color: white;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    right: 25%;
+    font-family: borealis;
+    font-size: 40px;
+  }
+
+  .btn-cambio{
+    color: rgba(0, 0, 0, 0.701);
+    background: white;
+    position: absolute;
+    top: 3%;
+    left: -23%;
+    font-size: 50px;
+  }
